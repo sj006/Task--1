@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Enhanced Animated Navigation</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav id="nav-bar">
+            <div class="logo">MyLogo</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-toggle" id="menu-toggle">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="animate">
+            <div class="home-content">
+                <div class="home-text">
+                    <h1 class="text-animate">Welcome to the Homepage</h1>
+                    <p>Scroll down to see animations in action!</p>
+                </div>
+                <div class="home-image animate-slide">
+                    <img src="cat.jpg" alt="Welcome Image">
+                </div>
+            </div>
+        </section>
+        
+        <section id="about" class="animate">
+            <h2 class="text-animate">About Us</h2>
+            <p>Learn more about what we do.</p>
+        </section>
+        <section id="services" class="animate">
+            <h2 class="text-animate">Our Services</h2>
+            <p>Discover the amazing services we offer.</p>
+            <div class="services-container">
+                <div class="services-scroll">
+                    <div class="service-card">Service 1</div>
+                    <div class="service-card">Service 2</div>
+                    <div class="service-card">Service 3</div>
+                    <div class="service-card">Service 4</div>
+                    <div class="service-card">Service 5</div>
+                </div>
+            </div>
+        </section>
+        
+        <section id="contact" class="animate">
+            <h2 class="text-animate">Contact Us</h2>
+            <p>We'd love to hear from you!</p>
+        </section>
+    </main>
+    <footer>
+        <div class="footer-content">
+            <p>© 2024 MyWebsite. All rights reserved.</p>
+            <p>Follow us: 
+                <a href="#" class="footer-link">Facebook</a> | 
+                <a href="#" class="footer-link">Twitter</a> | 
+                <a href="#" class="footer-link">Instagram</a>
+            </p>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
